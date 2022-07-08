@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-07-06T23:22:21Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/187636144",
+        "leisure": "slipway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -82.8853613,
+            40.1188382
+          ],
+          [
+            -82.8851993,
+            40.1188144
+          ],
+          [
+            -82.8848229,
+            40.1187932
+          ]
+        ]
+      },
+      "id": "way/187636144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396982092",
+        "leisure": "slipway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -82.964718,
+            40.242213
+          ],
+          [
+            -82.9650146,
+            40.242282
+          ],
+          [
+            -82.9651373,
+            40.2423106
+          ]
+        ]
+      },
+      "id": "way/396982092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/396983323",
+        "leisure": "slipway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -82.8851635,
+            40.1214871
+          ],
+          [
+            -82.8848481,
+            40.1217165
+          ]
+        ]
+      },
+      "id": "way/396983323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/332451317",
+        "leisure": "slipway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0928928,
+          40.0276924
+        ]
+      },
+      "id": "node/332451317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1729423321",
+        "leisure": "slipway",
+        "name": "Alum Creek Africa Boat Launch",
+        "source": "knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9491652,
+          40.1969572
+        ]
+      },
+      "id": "node/1729423321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2051781951",
+        "leisure": "slipway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4781323,
+          39.9319169
+        ]
+      },
+      "id": "node/2051781951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2060243078",
+        "leisure": "slipway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0960655,
+          40.0207959
+        ]
+      },
+      "id": "node/2060243078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7354673657",
+        "leisure": "slipway",
+        "source": "EsriWorldImageryClarity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0344264,
+          39.9679936
+        ]
+      },
+      "id": "node/7354673657"
+    }
+  ]
+}
