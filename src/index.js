@@ -1,5 +1,8 @@
 
 import mapboxgl, { LngLatBounds } from 'mapbox-gl';
+import './css/main.css';
+import './css/normalize.css';
+
 
 // TO MAKE THE MAP APPEAR YOU MUST ADD YOUR ACCESS TOKEN FROM
 // https://account.mapbox.com
@@ -42,22 +45,20 @@ map.addControl(new mapboxgl.FullscreenControl());
 
 
 //Local Files
-const boatLaunchPoints ='../data/BoatLaunchPoints.geojson'
-
 map.on('load', () =>{
 //Add GeoJSON point
 //Local file vs external file
     map.addSource('points',{
         type: 'geojson',
-        data: './data/BoatLaunchPoints.geojson'
+        data:'../data/BoatLaunchPoints.geojson'
     })
     map.addLayer({
         id: 'points',
         type: 'circle',
         source: 'points',
         paint: {
-            'circle-radius': 4,
-            'circle-color': 'red'
+            'circle-radius': 5,
+            'circle-color': 'blue'
         }
     })
 //Add GeoJSON lines
